@@ -1,3 +1,5 @@
+theme: balzac-for-jekyll
+
 title:            Flying Disc Dogs of Austin
 tagline:          Strengthening the Bond Between Human and Dog through Play, Teamwork and Trust
 description:      Disc dogs in Austin
@@ -55,7 +57,7 @@ sass:
     style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /FDDA-site/:categories/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
