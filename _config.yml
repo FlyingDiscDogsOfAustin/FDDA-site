@@ -5,9 +5,9 @@ description:      Disc dogs in Austin
 # Owner/author information
 owner:
   name:           Flying Disc Dogs of Austin
-  avatar:         avatar.png
+  avatar:         icon.jpg
   email:          fddadogs@gmail.com
-  location:       "Buffalo, NY"
+  location:       "Austin, TX"
   # Plug in your disqus shortname!
 
 tools:

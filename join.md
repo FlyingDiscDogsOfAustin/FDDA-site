@@ -1,3 +1,13 @@
+---
+layout: page
+permalink: /join.html
+title: Join the Flying Disc Dogs of Austin
+description: The Flying Disc Dogs of Austin club is a group of people and their dogs who meet to play games with flying discs and who compete in disc dog competitions.
+tags: [join]
+image:
+  feature: logo.jpg
+---
+
 # Join the Club!
 
 Membership is only $35 per Individual Player and $40 per Family (couple and/or with children under 18 years of age).
