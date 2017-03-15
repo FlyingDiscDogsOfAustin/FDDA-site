@@ -8,7 +8,6 @@ owner:
   avatar:         icon.jpg
   email:          fddadogs@gmail.com
   location:       "Austin, TX"
-  # Plug in your disqus shortname!
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
