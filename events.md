@@ -1,9 +1,7 @@
 ---
 layout: page
-permalink: /events.html
 title: Flying Disc Dogs of Austin Events
 description: The Flying Disc Dogs of Austin club is a group of people and their dogs who meet to play games with flying discs and who compete in disc dog competitions.
-tags: [events]
 image:
   feature: logo.jpg
 ---

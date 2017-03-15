@@ -1,9 +1,7 @@
 ---
 layout: page
-permalink: /UpDog2017.html
 title: FDDA's 2017 Texas UpDog Challenge
 description: The Flying Disc Dogs of Austin club is a group of people and their dogs who meet to play games with flying discs and who compete in disc dog competitions.
-tags: [updog, events2017]
 image:
   feature: logo.jpg
 ---
