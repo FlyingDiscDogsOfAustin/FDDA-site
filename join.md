@@ -3,7 +3,7 @@ layout: page
 title: Join the Flying Disc Dogs of Austin
 description: The Flying Disc Dogs of Austin club is a group of people and their dogs who meet to play games with flying discs and who compete in disc dog competitions.
 image:
-  feature: {{ site.url }}/FDDA-site/images/logo.png
+  feature: logo.png
 ---
 
 # Join the Club!
