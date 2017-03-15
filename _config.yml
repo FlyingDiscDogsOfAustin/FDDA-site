@@ -23,15 +23,15 @@ opengraph:
 # For external links add external: true
 links:
   - title: Home
-    url: /FDDA-site/index.html
+    url: index.html
   - title: About
-    url: /FDDA-site/about.html
+    url: about.html
   - title: Join
-    url: /FDDA-site/join.html
+    url: join.html
   - title: Events
-    url: /FDDA-site/events.html
+    url: events.html
   - title: Book
-    url: /FDDA-site/book.html
+    url: book.html
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
