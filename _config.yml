@@ -1,5 +1,3 @@
-theme: balzac-for-jekyll
-
 title:            Flying Disc Dogs of Austin
 tagline:          Strengthening the Bond Between Human and Dog through Play, Teamwork and Trust
 description:      Disc dogs in Austin
@@ -15,24 +13,6 @@ tools:
   standards:      "HTML, SCSS, Jekyll"
   software:       "git"
 
-# Open Graph customization
-opengraph:
-  locale:           en_US
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: index.html
-  - title: About
-    url: about.html
-  - title: Join
-    url: join.html
-  - title: Events
-    url: events.html
-  - title: Book
-    url: book.html
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      true
@@ -44,20 +24,16 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+assets: /assets/
 
 sass:
+    sass_dir: /assets/css/partials/
     style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /FDDA-site/:categories/:title
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+collections:
+  events:
+    output: true

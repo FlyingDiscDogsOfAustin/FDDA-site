@@ -2,3 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 Balzac-for-Jekyll-master/
+.bundle/
+vendor/
+old/
