@@ -16,8 +16,11 @@ footer {
     }
   }
 }
-span .tagline {
-  font-variant: small-caps;
+header{
+  .tagline {
+    word-break: break-all;
+    font-size: .8em;
+  }
 }
 
 .card-square.mdl-card {
