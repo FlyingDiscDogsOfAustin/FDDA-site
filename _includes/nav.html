@@ -5,7 +5,7 @@
       {% assign current = page.url %}
       {% for page in site.pages %}
         {% unless page.exclude %}
-          <a class="mdl-navigation__link" href="{{page.url}}.html">{{page.title}}</a>
+          <a class="mdl-navigation__link" href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a>
         {% endunless %}
       {% endfor %}
     </nav>
