@@ -1,8 +1,9 @@
 {% include head.html %}
 
-<article>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
-</article>
-
-{% include footer.html %}
+<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">{{content}}</div>
+<div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">4 (6 tablet)</div>
+<div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone">{% include footer.html %}</div>
+</div>
+</main>
+</div>
+</body>

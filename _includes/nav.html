@@ -1,11 +1,12 @@
-<ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
-  <li class="logo"><a id="logo-container" href="/" class="brand-logo">
-      <img src="/FDDA-site/assets/images/icon.jpg"></a></li>
-  <li></li>
-  {% assign current = page.url %}
-  {% for page in site.pages %}
-    {% unless page.exclude %}
-      <li {% if current == page.url %}class="bold active" {% else %} class="bold" {% endif %}><a href="{{page.url}}.html" class="waves-effect waves-teal">{{page.title}}</a></li>
-    {% endunless %}
-  {% endfor %}
-</ul>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout__title"><a id="logo-container" href="/" class="brand-logo">
+        <img src="{{site.baseurl}}assets/images/icon.jpg"></a></span>
+    <nav class="mdl-navigation">
+      {% assign current = page.url %}
+      {% for page in site.pages %}
+        {% unless page.exclude %}
+          <a class="mdl-navigation__link" href="{{page.url}}.html">{{page.title}}</a>
+        {% endunless %}
+      {% endfor %}
+    </nav>
+  </div>

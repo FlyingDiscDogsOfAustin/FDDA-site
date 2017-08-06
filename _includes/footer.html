@@ -1,11 +1,17 @@
-          <footer>
-            <div class="social">
-              <a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contact Me</span></a>
-            </div>
-            <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://materializecss.com/">MaterializeCSS</a>.</small>
-          </footer>
-        </div>
-      </div>
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">
+      <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="https://github.com">Github</a>, <a href="https://jekyllrb.com">Jekyll</a>, and <a href="https://getmdl.io/">Material Design Lite</a>.</small>
     </div>
-  </body>
-</html>
+  </div>
+  <div class="mdl-mini-footer__right-section">
+    <ul>
+      <li class="mdl-mini-footer--social-btn">
+        <a href="mailto:{{site.owner.email}}" class="social-btn social-btn__email" role="button" title="Email"><img src="{{site.baseurl}}assets/images/ic_email_white_24dp.png"></a>
+      </li>
+      <li class="mdl-mini-footer--social-btn">
+        <a href="https://www.facebook.com/flyingdiscdogsofaustin2015/" target="_blank" class="social-btn social-btn__facebook" role="button" title="Facebook"><img src="{{site.baseurl}}assets/images/FB-f-Logo__white_29.png"></a>
+      </li>
+    </ul>
+  </div>
+</footer>

@@ -33,6 +33,7 @@ sass:
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /FDDA-site/:categories/:title
+baseurl: "/FDDA-site/"
 
 collections:
   events:
