@@ -1,11 +1,11 @@
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout__title"><a id="logo-container" href="/" class="brand-logo">
-        <img src="{{site.baseurl}}assets/images/icon.jpg"></a></span>
+    <span class="mdl-layout__title"><a id="logo-container" href="{{site.baseurl}}/" class="brand-logo">
+        <img src="{{site.baseurl}}/assets/images/icon.jpg"></a></span>
     <nav class="mdl-navigation">
       {% assign current = page.url %}
       {% for page in site.pages %}
         {% unless page.exclude %}
-          <a class="mdl-navigation__link" href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a>
+          <a class="mdl-navigation__link" href="{{site.baseurl}}/{{page.url}}.html">{{page.title}}</a>
         {% endunless %}
       {% endfor %}
     </nav>
